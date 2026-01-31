@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.Camera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Camera video {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
